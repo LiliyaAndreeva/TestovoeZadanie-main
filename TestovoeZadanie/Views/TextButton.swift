@@ -20,7 +20,7 @@ struct TextButton: View {
                     design: .rounded
                 )
             )
-            .foregroundStyle(.colorViews)
+            .foregroundColor(.colorViews)
             .padding(.leading, size)
     }
 }

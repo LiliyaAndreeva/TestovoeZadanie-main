@@ -34,7 +34,7 @@ struct CustomPrice: View {
                     
                     HStack{
                         Text("199,0")
-                            .foregroundStyle(.gray)
+                            .foregroundColor(.gray)
                             .strikethrough()
                         Spacer()
                     }
@@ -50,7 +50,7 @@ struct CustomPrice: View {
                     HStack(alignment: .center ,spacing: size / 4.5 ) {
                         
                         Text("—")
-                            .foregroundStyle(.white)
+                            .foregroundColor(.white)
                             .font(.system(
                                 size: 15,
                                 weight: .bold,
@@ -73,10 +73,10 @@ struct CustomPrice: View {
                                 .opacity(0.8)
                                 .font(.system(size: 12))
                         }
-                        .foregroundStyle(.white)
+                        .foregroundColor(.white)
                         
                         Text("+")
-                            .foregroundStyle(.white)
+                            .foregroundColor(.white)
                             .font(.system(size: 25))
                     }
                 }

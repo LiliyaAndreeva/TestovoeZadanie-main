@@ -12,9 +12,9 @@ struct TextViewInFrame: View {
         Text("Цена по карте")
             .font(.system(size: 14))
             .padding(6)
-            .background(.colorViews)
+            .background(Color.colorViews)
             .clipShape(RoundedRectangle(cornerRadius: 5))
-            .foregroundStyle(.white)
+            .foregroundColor(.white)
             .padding(.leading, 20)
     }
 }

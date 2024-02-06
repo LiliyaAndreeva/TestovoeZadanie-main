@@ -25,7 +25,7 @@ struct RaitingView: View {
                 
             Text("| 19 отзывов")
                 .font(.system(size: textSize, weight: .regular, design: .rounded))
-                .foregroundStyle(.gray)
+                .foregroundColor(.gray)
                 
             Spacer()
             ZStack{
@@ -36,7 +36,7 @@ struct RaitingView: View {
                     .foregroundColor(.pink)
                 Text("-5%")
                     .font(.system(size: textSize, weight: .bold, design: .rounded))
-                    .foregroundStyle(.white)
+                    .foregroundColor(.white)
             }
             .padding(.trailing, 10)
         }

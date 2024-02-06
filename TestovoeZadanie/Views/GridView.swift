@@ -21,7 +21,7 @@ struct GridView: View {
                         ZStack{
                             Rectangle()
                                 .frame(width: 240, height: 170)
-                                .foregroundStyle(.white)
+                                .foregroundColor(.white)
                                 .cornerRadius(20)
                                 .shadow(color: .gray.opacity(0.3), radius: 5
                                 )
@@ -40,7 +40,7 @@ struct GridView: View {
                                 }
                                 HStack{
                                     Text("7 мая 2021")
-                                        .foregroundStyle(.gray)
+                                        .foregroundColor(.gray)
                                     Spacer()
                                 }
                                 Stars()
@@ -57,7 +57,7 @@ struct GridView: View {
                                             design: .rounded
                                         )
                                     )
-                                    .foregroundStyle(.gray)
+                                    .foregroundColor(.gray)
                                 }
                                 Spacer()
                             }

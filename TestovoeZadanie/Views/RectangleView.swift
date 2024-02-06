@@ -15,7 +15,7 @@ struct RectangleView: View {
         ZStack{
             Rectangle()
                 .frame(width: 240, height: 170)
-                .foregroundStyle(.white)
+                .foregroundColor(.white)
                 .cornerRadius(20)
                 .shadow(color: .gray, radius: 5, x: 10,y: 5
                 )
@@ -32,7 +32,7 @@ struct RectangleView: View {
                 }
                 HStack{
                     Text("7 мая 2021")
-                        .foregroundStyle(.gray)
+                        .foregroundColor(.gray)
                     Spacer()
                 }
                 HStack{
@@ -57,7 +57,7 @@ struct RectangleView: View {
                             design: .rounded
                         )
                     )
-                    .foregroundStyle(.gray)
+                    .foregroundColor(.gray)
                 }
                 Spacer()
             }

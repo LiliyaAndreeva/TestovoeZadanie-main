@@ -39,7 +39,7 @@ struct ContentView: View {
                     }
                     .padding(.top, 10)
                     .frame(maxWidth: .infinity)
-                    .background(.white)
+                    .foregroundColor(.white)
                 }
         }
     
@@ -60,7 +60,7 @@ struct ContentView: View {
                             .foregroundColor(selected == tab ? .colorViews : .gray)
                             .accentColor(selected == tab ? .colorViews : .gray)
                         Text(tab)
-                            .foregroundStyle(selected == tab ? .colorViews : .gray)
+                            .foregroundColor(selected == tab ? .colorViews : .gray)
                     }
                 }
             }
